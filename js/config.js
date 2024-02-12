@@ -40,18 +40,11 @@ const variationsConfig = {
 		name: "BlueyPlace",
 		code: "",
 		default: 1,
-		drawablePeriods: [1, 2],
+		drawablePeriods: [0, 0],
 		drawableRegions: [
-			[[1, 54], [-500, -500, 499, 499]],
-			[[55, 85], [-500, -500, 999, 499]],
-			[[86, 114], [-1000, -500, 999, 499]],
-			[[115, 152], [-1000, -1000, 999, 499]],
-			[[153, 168], [-1000, -1000, 999, 999]],
-			[[169, 201], [-1500, -1000, 999, 999]],
-			[[202, 258], [-1500, -1000, 1499, 999]],
+			[[0, 0], [-500, -500, 500, 500]]
 		],
 		versions: [
-			{ "timestamp": "Start", "url": ["./img/canvas-0.png"] },
 			{ "timestamp": "Final", "url": ["./img/canvas.png"] },
 		],
 		icon: '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 192 192" aria-hidden="true"><polygon points="154 0 154 38 39 38 39 192 0 192 0 0"/><polygon points="192 38 192 192 77 192 77 153 154 153 154 38"/><rect x="77" y="77" width="38" height="38"/></svg>'

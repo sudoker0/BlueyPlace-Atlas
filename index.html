@@ -280,7 +280,7 @@
 			<div class="period-group card mb-2">
 				<div class="card-body">
 					<div class="period-status alert alert-danger small py-2" role="alert"></div>
-					<div class="period-input-controls d-flex align-items-center mb-2">
+					<div class="hidden period-input-controls d-flex align-items-center mb-2">
 						<label for="period-start">Start Period</label>
 						<div class="btn-group btn-group-sm ms-auto" role="group" aria-label="Start period controls">
 							<button type="button" class="btn btn-secondary" id="periodStartLeft" aria-label="Left"><i class="bi bi-caret-left-fill" aria-hidden="true"></i></button>
@@ -288,9 +288,9 @@
 						</div>
 						<button type="button" class="btn btn-secondary btn-sm ms-2" id="periodStartView">View</button>
 					</div>
-					<input type="range" class="period-start form-range" id="period-start" min="0" list="periodStartList">
+					<input type="range" class="hidden period-start form-range" id="period-start" min="0" list="periodStartList">
 					<datalist id="periodStartList"></datalist>
-					<div class="period-input-controls d-flex align-items-center mb-2">
+					<div class="hidden period-input-controls d-flex align-items-center mb-2">
 						<label for="period-end">End Period</label>
 						<div class="btn-group btn-group-sm ms-auto" role="group" aria-label="End period controls">
 							<button type="button" class="btn btn-secondary" id="periodEndLeft" aria-label="Left"><i class="bi bi-caret-left-fill" aria-hidden="true"></i></button>
@@ -298,7 +298,7 @@
 						</div>
 						<button type="button" class="btn btn-secondary btn-sm ms-2" id="periodEndView">View</button>
 					</div>
-					<input type="range" class="period-end form-range mb-2" id="period-end" min="0" list="periodEndList">
+					<input type="range" class="hidden period-end form-range mb-2" id="period-end" min="0" list="periodEndList">
 					<datalist id="periodEndList"></datalist>
 					<div class="d-flex flex-wrap gap-2 mb-2">
 						<button type="button" class="period-copy btn btn-secondary btn-sm flex-fill" id="period-copy">
@@ -314,7 +314,7 @@
 							Delete
 						</button>
 					</div>
-					<div class="input-group">
+					<div class="hidden input-group">
 						<span class="input-group-text"></span>
 						<select class="period-variation form-select" title="Select which layer this path is used for"></select>
 					</div>

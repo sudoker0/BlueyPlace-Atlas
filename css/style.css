@@ -471,3 +471,7 @@ body:not([data-dev]) .show-only-on-dev {
 }
 
 /* purgecss end ignore */
+
+div.hidden, input.hidden  {
+	display: none !important;
+}
