@@ -11,7 +11,7 @@ window.instanceId = instanceId
 const instanceSubreddit = "placeAtlas2023"
 window.instanceSubreddit = instanceSubreddit
 
-const instanceRepo = "https://github.com/placeAtlas/atlas-2023"
+const instanceRepo = "https://github.com/sudoker0/BlueyPlace-Atlas"
 window.instanceRepo = instanceRepo
 
 const pageTitle = "The 2023 BlueyPlace Atlas"
