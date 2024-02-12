@@ -12,8 +12,6 @@ To add a new entry, go to [the drawing mode](https://sudoker0.xyz/BlueyPlace-Atl
 
 If you want to see which areas of the canvas do not have entries yet, select "Highlight Empty" to hide areas that already have entries.
 
-You can copy the polygon from one period to the other, duplicating a period to be edited later, as well as deleting a period (if there is more than one). An alert is also shown if there are errors that needed attention.
-
 When you're happy with the shape you've drawn, press <kbd>Finish</kbd>. You will now be able to enter some information about the entry:
 
 - **Name**: A short, descriptive name.
